@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #253858;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #42526E;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	/* display: block; */
+	margin: 0 auto;
+	max-width:1200px;
+}
+
+::placeholder {
+  color: #C0CCDA;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #C0CCDA;
+}
+
+::-ms-input-placeholder {
+  color: #C0CCDA;
+}
+#mainvideo {
+	padding: 40px 0	;
+} 
+#mainvideo section.wrapper {
+	display: flex;
+}
+#mainvideo section.wrapper section.main {
+	width: 65%;
+	margin: 0 auto;
+	padding: 0 20px;
+
+}
+#mainvideo section.wrapper section.main h3 {
+	font-size: 24px;
+	font-weight:600;
+	margin-bottom: 30px;
+}
+#mainvideo section.wrapper section.main span{
+	display: block;
+}
+#mainvideo section.wrapper section.main p {
+
+}
+#mainvideo section.wrapper section.main video {
+	width: 100%;
+}
+#mainvideo section.wrapper section.que {
+	
+}	
+#mainvideo section.wrapper section.que ul {
+
+}
+#mainvideo section.wrapper section.que ul li {
+	width: 250px;
+	margin-bottom: 15px;
+}
+#mainvideo section.wrapper section.que ul li:first-child{
+	padding-top: 56px;
+}
+#mainvideo section.wrapper section.que ul li img{
+	display: block;
+	width: 100%;
+}
